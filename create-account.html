@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Tassle Life</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="col-12 col-md-9 m-auto navbar navbar-expand-lg navbar-light bg-white">
+
+            <div class="container-fluid ">
+                <a class="navbar-brand logo__image-wrapper" href="/"><img src="Images/logo/Logo.jpg"
+                        alt="The Tassle Life " /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto site-nav">
+                        <li class="nav-item fw-bold ">
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" href="#">Home Decor</a>
+                        </li>
+
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Stoles & Scarves</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Footwear
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Lorem ipsum dolor sit amet.</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Earrings
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="d-flex position-relative">
+                        <form class="d-flex pe-4">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                        <a href="/login.html" class="site-header__icon inline-block m-auto pe-3">
+                            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-login"
+                                viewBox="0 0 28.33 37.68">
+                                <path
+                                    d="M14.17 14.9a7.45 7.45 0 1 0-7.5-7.45 7.46 7.46 0 0 0 7.5 7.45zm0-10.91a3.45 3.45 0 1 1-3.5 3.46A3.46 3.46 0 0 1 14.17 4zM14.17 16.47A14.18 14.18 0 0 0 0 30.68c0 1.41.66 4 5.11 5.66a27.17 27.17 0 0 0 9.06 1.34c6.54 0 14.17-1.84 14.17-7a14.18 14.18 0 0 0-14.17-14.21zm0 17.21c-6.3 0-10.17-1.77-10.17-3a10.17 10.17 0 1 1 20.33 0c.01 1.23-3.86 3-10.16 3z">
+                                </path>
+                            </svg>
+                        </a>
+
+                        <a href="/add-cart.html" class="site-header__icon inline-block m-auto">
+                            <svg aria-hidden="true" focusable="false" role="presentation" class="icon "
+                                viewBox="0 0 37 40">
+                                <path
+                                    d="M36.5 34.8L33.3 8h-5.9C26.7 3.9 23 .8 18.5.8S10.3 3.9 9.6 8H3.7L.5 34.8c-.2 1.5.4 2.4.9 3 .5.5 1.4 1.2 3.1 1.2h28c1.3 0 2.4-.4 3.1-1.3.7-.7 1-1.8.9-2.9zm-18-30c2.2 0 4.1 1.4 4.7 3.2h-9.5c.7-1.9 2.6-3.2 4.8-3.2zM4.5 35l2.8-23h2.2v3c0 1.1.9 2 2 2s2-.9 2-2v-3h10v3c0 1.1.9 2 2 2s2-.9 2-2v-3h2.2l2.8 23h-28z">
+                                </path>
+                            </svg>
+
+                            <div id="CartCount" class="site-header__cart-count">
+                                <span>0</span>
+                            </div>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="col-md-9 m-auto col-12 pb-4">
+        <form action="" method="POST" class="col-md-4 col-12 p-3 p-md-0">
+            <fieldset>
+                <h3 class="login pt-4 pb-4">Create Account</h3>
+                <label for="fname" class="w-100 form-label pb-2">
+                    <input type="text" placeholder="First Name" name="fname"  class="w-100">
+                </label>
+                <label for="lname" class="w-100 form-label pb-2">
+                    <input type="text" placeholder="Last Name" name="lname"  class="w-100">
+                </label>
+                <label for="email" class="w-100 form-label pb-2">
+                    <input type="email" placeholder="Email" name="email"  class="w-100">
+                </label>
+                <label for="password" class="w-100 form-label">
+                    <input type="password" placeholder="Password" name="password" class="w-100">
+                </label>
+    
+                <input type="submit" class="btn btn-dark btn-lg" name="submit" value="Create" style="margin: 16px 0;">
+            </fieldset>
+            <fieldset>
+                <p><a href="login.html">Already have an account</a></p>
+                <p><a href="index.html">Return to store</a></p>
+            </fieldset>
+        </form>
+    </main>
+
+
+
+    <!-- Footer -->
+    <footer class="container-fluid  mt-5 p-0 pt-4 " style="background-color: #293044; font-family: 'Alegreya', serif; ">
+        <div class="col-12 col-md-9 m-auto">
+
+            <div
+                class="container-fluid p-0 text-white d-md-flex justify-content-between d-block text-center text-md-start flex-wrap">
+
+                <section>
+                    <h3 class="h4">Customer Service</h3>
+                    <ul style="line-height: 31px;">
+
+                        <li><a href="#" class="text-white">About us</a></li>
+
+                        <li><a href="#" class="text-white">Terms &amp; Conditions</a></li>
+
+                        <li><a href="#" class="text-white">Privacy Policy</a></li>
+
+                        <li><a href="#" class="text-white">Exchange &amp; Return Policy</a></li>
+
+                        <li><a href="#" class="text-white">Shipping &amp; Delivery</a></li>
+
+                        <li><a href="#" class="text-white">Track Order</a></li>
+
+                        <li><a href="#" class="text-white">Size chart</a></li>
+
+                    </ul>
+                </section>
+
+                <section>
+                    <h3 class="h4">Follow Us</h3>
+                    <ul>
+                        <li>
+                            <a href="#" class="text-white" title="The Tassle Life  on Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3 class="h4">For Bulk Order</h3>
+                    <ul>
+                        <li><a href="#" class="text-white">Click here</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3 class="h4">Contact us</h3>
+                    <div>
+                        <p>The Tassle Life</p>
+                        <p>1076, 1st Floor, Heera Panna Mall, Powai, Mumbai 400076</p>
+                        <p>info@thetasslelife.com</p>
+                        <p>+91-9167286642</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h3 class="h4">Newsletter</h3>
+                    <p>Sign up for the latest news, offers and styles</p>
+                    <div>
+                        <form method="post" action="#" id="contact_form" accept-charset="UTF-8" class="contact-form">
+                            <input type="hidden" name="form_type" value="customer"><input type="hidden" name="utf8"
+                                value="✓">
+
+
+                            <input type="hidden" name="contact[tags]" value="newsletter">
+                            <input type="email" placeholder="Your email" name="contact[email]" id="Email"
+                                class="input-group-field w-100 p-2" aria-label="Your email" autocorrect="off"
+                                autocapitalize="off">
+                            <br>
+                            <input type="submit" class="btn btn-secondary mt-4" name="subscribe" id="subscribe"
+                                value="Subscribe">
+
+                        </form>
+                    </div>
+
+                </section>
+            </div>
+
+            <div class="container-fluid p-0">
+                <p class="text-center text-white">Copyright © 2022, <a href="#" class="text-white" title=""
+                        target="_blank">The Tassle Life </a>.
+                </p>
+            </div>
+
+            <div class="container-fluid p-0 text-center">
+                <ul class="d-flex justify-content-center m-0">
+
+                    <li class="m-30">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38"
+                            height="24" aria-labelledby="pi-american_express">
+                            <title id="pi-american_express">American Express</title>
+                            <g fill="none">
+                                <path fill="#000"
+                                    d="M35,0 L3,0 C1.3,0 0,1.3 0,3 L0,21 C0,22.7 1.4,24 3,24 L35,24 C36.7,24 38,22.7 38,21 L38,3 C38,1.3 36.6,0 35,0 Z"
+                                    opacity=".07"></path>
+                                <path fill="#006FCF"
+                                    d="M35,1 C36.1,1 37,1.9 37,3 L37,21 C37,22.1 36.1,23 35,23 L3,23 C1.9,23 1,22.1 1,21 L1,3 C1,1.9 1.9,1 3,1 L35,1">
+                                </path>
+                                <path fill="#FFF"
+                                    d="M8.971,10.268 L9.745,12.144 L8.203,12.144 L8.971,10.268 Z M25.046,10.346 L22.069,10.346 L22.069,11.173 L24.998,11.173 L24.998,12.412 L22.075,12.412 L22.075,13.334 L25.052,13.334 L25.052,14.073 L27.129,11.828 L25.052,9.488 L25.046,10.346 L25.046,10.346 Z M10.983,8.006 L14.978,8.006 L15.865,9.941 L16.687,8 L27.057,8 L28.135,9.19 L29.25,8 L34.013,8 L30.494,11.852 L33.977,15.68 L29.143,15.68 L28.065,14.49 L26.94,15.68 L10.03,15.68 L9.536,14.49 L8.406,14.49 L7.911,15.68 L4,15.68 L7.286,8 L10.716,8 L10.983,8.006 Z M19.646,9.084 L17.407,9.084 L15.907,12.62 L14.282,9.084 L12.06,9.084 L12.06,13.894 L10,9.084 L8.007,9.084 L5.625,14.596 L7.18,14.596 L7.674,13.406 L10.27,13.406 L10.764,14.596 L13.484,14.596 L13.484,10.661 L15.235,14.602 L16.425,14.602 L18.165,10.673 L18.165,14.603 L19.623,14.603 L19.647,9.083 L19.646,9.084 Z M28.986,11.852 L31.517,9.084 L29.695,9.084 L28.094,10.81 L26.546,9.084 L20.652,9.084 L20.652,14.602 L26.462,14.602 L28.076,12.864 L29.624,14.602 L31.499,14.602 L28.987,11.852 L28.986,11.852 Z">
+                                </path>
+                            </g>
+                        </svg>
+
+                    </li>
+
+                    <li class="m-30">
+                        <svg class="icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38"
+                            height="24" aria-labelledby="pi-diners_club">
+                            <title id="pi-diners_club">Diners Club</title>
+                            <path opacity=".07"
+                                d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z">
+                            </path>
+                            <path fill="#fff"
+                                d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path>
+                            <path
+                                d="M12 12v3.7c0 .3-.2.3-.5.2-1.9-.8-3-3.3-2.3-5.4.4-1.1 1.2-2 2.3-2.4.4-.2.5-.1.5.2V12zm2 0V8.3c0-.3 0-.3.3-.2 2.1.8 3.2 3.3 2.4 5.4-.4 1.1-1.2 2-2.3 2.4-.4.2-.4.1-.4-.2V12zm7.2-7H13c3.8 0 6.8 3.1 6.8 7s-3 7-6.8 7h8.2c3.8 0 6.8-3.1 6.8-7s-3-7-6.8-7z"
+                                fill="#3086C8"></path>
+                        </svg>
+                    </li>
+
+                    <li class="m-30">
+                        <svg class="icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38"
+                            height="24" aria-labelledby="pi-master">
+                            <title id="pi-master">Mastercard</title>
+                            <path opacity=".07"
+                                d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z">
+                            </path>
+                            <path fill="#fff"
+                                d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path>
+                            <circle fill="#EB001B" cx="15" cy="12" r="7"></circle>
+                            <circle fill="#F79E1B" cx="23" cy="12" r="7"></circle>
+                            <path fill="#FF5F00"
+                                d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z">
+                            </path>
+                        </svg>
+                    </li>
+
+                    <li>
+                        <svg class="icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38"
+                            height="24" aria-labelledby="pi-visa">
+                            <title id="pi-visa">Visa</title>
+                            <path opacity=".07"
+                                d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z">
+                            </path>
+                            <path fill="#fff"
+                                d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path>
+                            <path
+                                d="M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z"
+                                fill="#142688"></path>
+                        </svg>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
