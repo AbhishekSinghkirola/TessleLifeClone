@@ -95,7 +95,7 @@ ul {
     height: 1em;
 }
 
-#gallery-wrapper:hover #overlay {
+.gallery-wrapper:hover .overlay {
     display: block !important;
 }
 
